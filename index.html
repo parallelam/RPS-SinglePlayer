@@ -1,0 +1,54 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mildly Offensive Rock Paper Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Input reset CSS link below to clear any pre-existing player formatting.-->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+    <!--Input Bootstrap CSS link below for formatting.-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Input custom CSS link below to override Bootstrap formatting.-->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+    
+</head>
+<body class="c-container / t--light">
+	<div class="container t-menu">
+		<div class="jumbotron t-menu__item">
+			<h1>Lil Jon's Rock Paper Scissors</h1>
+			<h4>Press R, P or S to start playing!</h4>
+		</div>
+	
+	<div class="panel panel-default t-menu">
+				<div class="panel-heading t-menu__item">
+					<h3 class="panel-title t-menu__item"><span id="userChoice"></span></h3>
+				</div>
+				<div class="panel-body t-menu__item logo-container"><span id="picture"></span><span id="computerPicture"></span>
+				</div>
+    </div>
+    
+    <div class="panel panel-default t-menu">
+		<div class="panel-body t-menu__item">
+			Win Counter: <span id="wins">0</span>
+		</div>
+	</div>
+	
+	<div class="panel panel-default t-menu">
+		<div class="panel-body t-menu__item">
+			Loss Counter:  <span id="losses">0</span>
+		</div>
+    </div>
+    
+    <div class="panel panel-default t-menu">
+		<div class="panel-body t-menu__item">
+			Tie Counter:  <span id="ties">0</span>
+		</div>
+    </div>
+    
+    <button class="o-menu__item / t-menu__item / js-change-theme"></button>
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
